@@ -13,6 +13,16 @@ import {setupCourses} from '../common/setup-test-data';
 
 describe('CoursesCardListComponent', () => {
 
+  let component: CoursesCardListComponent;
+  beforeEach(() => {
+    TestBed.configureTestingModule({
+      imports: [CoursesModule]
+    })
+    .compileComponents()
+    .then(() => {
+
+    });
+  })
 
   it("should create the component", () => {
 

@@ -1,6 +1,11 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "assert": [
+        "./assert.ts"
+      ]
+    },
     "module": "esnext",
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
